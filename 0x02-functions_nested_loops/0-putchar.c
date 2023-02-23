@@ -1,14 +1,12 @@
 #include "main.h"
-
 /**
- * main - Program that prints _putchar
- * followed by a new line
- * Return: 0 (Success)
+ * main - prints _putchar
+ *
+ * Return: Always 0 in success
  */
-
 int main(void)
 {
-	_putchar('_');
+	_putchar(95); /*95 is asci for _*/
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
@@ -17,5 +15,7 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
+
